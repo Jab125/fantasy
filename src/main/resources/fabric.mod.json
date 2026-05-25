@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "fantasy",
+  "id": "fantasy-minimega",
   "version": "${version}",
-  "name": "Fantasy",
-  "description": "Fantasy is a library that allows for dimensions to be created and destroyed at runtime on the server.",
-  "authors": ["Nucleoid Contributors"],
+  "name": "Minimega/Fantasy",
+  "description": "A fork of Fantasy for 26.2",
+  "authors": ["Jab125", "Nucleoid Contributors"],
   "license": "LGPLv3",
   "environment": "*",
   "entrypoints": {
@@ -15,7 +15,8 @@
   "icon": "icon.png",
   "custom": {
     "modmenu": {
-      "badges": ["library"]
+      "badges": ["library"],
+      "parent": "minimega"
     }
   },
   "depends": {
